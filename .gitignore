@@ -1,2 +1,13 @@
-*.log
+# macOS system files
 .DS_Store
+
+# Build directory
+build/
+
+# User database files
+*.userdb
+
+# Compiled output
+*.pyc
+*.pyo
+__pycache__/
