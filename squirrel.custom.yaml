@@ -3,9 +3,9 @@ patch:
 
   # 皮肤主题名称输入在下方，分为浅色和深色
   # 浅色主题
-  style/color_scheme: ps4
+  style/color_scheme: brisk
   # 深色主题
-  style/color_scheme_dark: ps4
+  style/color_scheme_dark: brisk
   # 文本选词的方向
   style/candidate_list_layout: linear
 
@@ -436,6 +436,287 @@ patch:
       hilited_candidate_text_color: 0xffffff
       hilited_comment_text_color: 0xffffff
       hilited_candidate_back_color: 0xe89f00
+
+    xbox_silver:
+      name: "銀色叉盒／Xbox Silver"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)   
+      text_color: 0x1fc28d
+      back_color: 0xefeeee
+      border_color: 0xefeeee
+      label_color: 0x5bf0b5
+      hilited_text_color: 0xffffff
+      hilited_back_color: 0x5bf0b5
+      candidate_text_color: 0x1fc28d
+      comment_text_color: 0x1fc28d
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xffffff
+      hilited_candidate_back_color: 0x448c28
+      
+
+    youtube:
+      name: "YouTube"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)   
+      text_color: 0x000000
+      back_color: 0xdedede
+      border_color: 0xdedede
+      label_color: 0x000000
+      hilited_text_color: 0x230dc3
+      hilited_back_color: 0xffffff
+      candidate_text_color: 0x000000
+      comment_text_color: 0x000000
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xffffff
+      hilited_candidate_back_color: 0x230dc3
+
+    smurfs:
+      name: "藍精靈／Smurfs"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)   
+      text_color: 0xffffff
+      back_color: 0xbf7817
+      border_color: 0xf5ede0
+      label_color: 0xbf7817
+      hilited_text_color: 0xdbbc6d
+      hilited_back_color: 0xbf7817
+      candidate_text_color: 0xf6f6f6
+      comment_text_color: 0xf6f6f6
+      hilited_candidate_text_color: 0xf6f6f6
+      hilited_comment_text_color: 0xf6f6f6
+      hilited_candidate_back_color: 0xdbbc6d
+
+
+    android:
+      name: "安卓／Android"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)   
+      text_color: 0xffffff
+      back_color: 0x99731c
+      border_color: 0x99731c
+      label_color: 0xc18835
+      hilited_text_color: 0x50c4a8
+      hilited_back_color: 0x99731c
+      candidate_text_color: 0xffffff
+      comment_text_color: 0xffffff
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xffffff
+      hilited_candidate_back_color: 0x50c4a8
+
+
+    cool_breeze:
+      name: "清風／Cool Breeze"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0x0000FF
+      back_color: 0xFFFBFB
+      border_color: 0xFFAAAA
+      hilited_text_color: 0x0000CE
+      hilited_back_color: 0xFFFBFB
+      candidate_text_color: 0x009100
+      hilited_candidate_text_color: 0x6F003A
+      hilited_candidate_back_color: 0xFFD6AC
+
+    google_plus:
+      name: "Google+"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0xcac9c8
+      back_color: 0xffffff
+      border_color: 0x394bdd
+      label_color: 0xcac9c8
+      hilited_text_color: 0x394bdd
+      hilited_back_color: 0xffffff
+      candidate_text_color: 0x394bdd
+      comment_text_color: 0xcac9c8
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xffffff
+      hilited_candidate_back_color: 0x394bdd
+
+    modern_warfare:
+      name: "現代戰爭／Modern Warfare"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0x14bc70
+      back_color: 0x0a1b0d
+      border_color: 0x4bad83
+      hilited_text_color: 0xfbfdfc
+      hilited_back_color: 0x030e06
+      candidate_text_color: 0xabfedc
+      comment_text_color: 0xfcfdfb
+      hilited_candidate_text_color: 0xabfedc
+      hilited_candidate_back_color: 0x676f63
+
+    brisk:
+      name: "輕盈／Brisk"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0x2238dc
+      back_color: 0xffffff
+      border_color: 0x333333
+      hilited_text_color: 0x2238dc
+      hilited_back_color: 0xffffff
+      candidate_text_color: 0x575757
+      hilited_candidate_text_color: 0x2238dc
+      hilited_candidate_back_color: 0xffffff
+
+    douban:
+      name: "豆瓣"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0x2238dc
+      back_color: 0xffffff
+      border_color: 0x333333
+      hilited_text_color: 0x006c12
+      hilited_back_color: 0xffffff
+      candidate_text_color: 0x575757
+      hilited_candidate_text_color: 0x006c12
+      hilited_candidate_back_color: 0xffffff  
+
+    starcraft_ii:
+      name: "星際爭霸Ⅱ／StarCraft Ⅱ"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0xffffff
+      back_color: 0x29190a
+      border_color: 0x534b46
+      label_color: 0xffffff
+      hilited_text_color: 0xffffff
+      hilited_back_color: 0x17100a
+      candidate_text_color: 0xffffff
+      comment_text_color: 0xffffff
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xffffff
+      hilited_candidate_back_color: 0xefad1e
+
+    steam:
+      name: "Steam"
+      candidate_format: "%c %@ "
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)         text_color: 0xcd8c52
+      back_color: 0x141617
+      border_color: 0x353638
+      label_color: 0xffffff
+      hilited_text_color: 0xc9cfd1
+      hilited_back_color: 0x141617
+      candidate_text_color: 0xffffff
+      comment_text_color: 0xa7a7a9
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xa7a7a9
+      hilited_candidate_back_color: 0x594231
+
+    zelda:
+      name: "BOTW"
+      author: looe
+      back_color: '0x000000'
+      text_color: '0x87FF87'
+      hilited_text_color: '0xFFFFFF'
+      hilited_back_color: '0x49B334'
+      hilited_candidate_text_color: '0xFFFFFF'
+      hilited_candidate_back_color: '0x49B334'
+      hilited_candidate_label_color: '0xFFFFFF'
+      hilited_comment_text_color: '0xFFFFFF'
+      candidate_text_color: '0xFFFFFF'
+      label_color: '0xFFFFFF'
+      comment_text_color: '0xFFFFFF'
+
+    hud:
+      name: "pink"
+      author: looechao
+      back_color: '0x000000'
+      text_color: '0xFFFFFF'
+      hilited_text_color: '0xFFFFFF'
+      hilited_back_color: '0xA114FF'
+      hilited_candidate_text_color: '0xFFFFFF'
+      hilited_candidate_back_color: '0xA114FF'
+      hilited_candidate_label_color: '0xFBF2FF'
+      hilited_comment_text_color: ''
+      candidate_text_color: '0xFFFFFF'
+      label_color: '0xA114FF'
+      comment_text_color: '0xFCF5FF'
+
+    github:
+      name: Github
+      author: Khan
+      back_color: '0x221B16'
+      hilited_candidate_text_color: '0x000000'
+      hilited_candidate_back_color: '0x7CCF72'
+      candidate_text_color: '0xFFD6A5'
+      label_color: '0xFFD6A5'
+      comment_text_color: '0xFFD6A5'
+
+    dracula:
+      name: dracula
+      horizontal: true            
+      candidate_format: "%c %@ "  
+      font_point: 16              
+      label_font_point: 14        
+      corner_radius: 5            
+      line_spacing: 10            
+      back_color: 0x362A28
+      border_color: 0x362A28
+      text_color: 0x6CB8FF
+      hilited_text_color: 0x5A4744
+      hilited_back_color: 0xF2F8F8
+      hilited_candidate_label_color: 0xfafafa
+      hilited_candidate_text_color: 0xF2F8F8 
+      hilited_candidate_back_color: 0xC679FF 
+      hilited_comment_text_color: 0x362b00   
+      candidate_text_color: 0xF993BD 
+      comment_text_color: 0xFDE98B
+      inline_preedit: true    
+
+    color_scheme_mritd:
+      name: '漠然 / mritd_dark'
+      author: mritd <mritd1234@gmail.com>
+      horizontal: false # 水準排列
+      inline_preedit: false # 單行顯示，false 雙行顯示
+      corner_radius: 5 # 候選條圓角
+      hilited_corner_radius: 3 # 高亮圓角
+      border_height: 6 # 視窗邊界高度，大於圓角半徑才生效
+      border_width: 6 # 視窗邊界寬度，大於圓角半徑才生效
+      border_color_width: 0
+      #font_face: 'Times-Roman, 儷黑 Pro,ApplecolorEmoji,HanaMinA,HanaMinB' # 候選詞字體
+      font_point: 16 # 候選字詞大小
+      label_font_point: 14 # 候選編號大小
+      text_color: 0xdedddd # 拚音行文字顔色，24 位色值，16 進製，BGR 順序
+      back_color: 0x4b4b4b # 候選條背景色
+      label_color: 0x888785 # 預選欄編號顔色
+      border_color: 0x4b4b4b # 邊框色
+      candidate_text_color: 0xffffff # 預選項文字顔色
+      hilited_text_color: 0xdedddd # 高亮拚音 (需要開啓內嵌編碼)
+      hilited_back_color: 0x6D6D6D # 高亮拚音 (需要開啓內嵌編碼)
+      hilited_candidate_text_color: 0xFFE696 # 第一候選項文字顔色
+      hilited_candidate_back_color: 0x4b4b4b # 第一候選項背景背景色
+      hilited_candidate_label_color: 0xffffff # 第一候選項編號顔色
+      comment_text_color: 0xdedddd # 拚音等提示文字顔色
+
 
   # 特定App默认中/英文输入
   app_options:
